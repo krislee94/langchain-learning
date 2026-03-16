@@ -1,0 +1,1 @@
+0 8 * * * /Users/mac/.openclaw/workspace/scripts/weight-tracker.sh

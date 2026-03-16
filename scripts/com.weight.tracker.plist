@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.weight.tracker</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/mac/.openclaw/workspace/scripts/weight-tracker.sh</string>
+    </array>
+    
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>8</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+    
+    <key>RunAtLoad</key>
+    <false/>
+    
+    <key>StandardOutPath</key>
+    <string>/Users/mac/.openclaw/workspace/memory/weight-tracker.log</string>
+    
+    <key>StandardErrorPath</key>
+    <string>/Users/mac/.openclaw/workspace/memory/weight-tracker.err</string>
+</dict>
+</plist>

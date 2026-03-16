@@ -33,7 +33,12 @@ Thumbs.db
 
 # Testing
 coverage/
+coverage-nest/
 .vitest/
+test/fixtures/
+
+# NestJS
+dist-nest/
 
 # Temporary files
 tmp/
