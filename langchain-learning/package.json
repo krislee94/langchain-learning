@@ -11,6 +11,10 @@
     "demo:tools": "tsx src/demos/02-custom-tools.ts",
     "demo:chain": "tsx src/demos/03-chains.ts",
     "demo:memory": "tsx src/demos/04-memory.ts",
+    "demo:01-1": "tsx 01-core-value/demos/01-model-comparison.ts",
+    "demo:01-2": "tsx 01-core-value/demos/02-first-agent.ts",
+    "demo:02-1": "tsx 02-architecture/demos/01-message-flow.ts",
+    "demo:02-2": "tsx 02-architecture/demos/02-custom-tool.ts",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
     "format": "prettier --write \"src/**/*.ts\"",
@@ -35,6 +39,7 @@
   "dependencies": {
     "@langchain/anthropic": "^0.3.0",
     "@langchain/core": "^0.3.0",
+    "@langchain/google-genai": "^0.2.0",
     "@langchain/langgraph": "^0.2.0",
     "@langchain/openai": "^0.3.0",
     "dotenv": "^16.4.0",
